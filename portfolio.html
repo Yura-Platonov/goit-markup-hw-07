@@ -26,36 +26,36 @@
     <header class="header">
       <div class="container header-nav">
         <nav class="flex">
-          <a class="logo-header" href="./index.html">
-            Web<span class="logo-accent-header">Studio</span></a
+          <a class="header__logo" href="./index.html">
+            Web<span class="header__logo-accent">Studio</span></a
           >
           <ul class="list flex main-nav">
-            <li class="nav-item">
-              <a class="main-nav-link" href="./index.html">Студія</a>
-            </li>
-            <li class="nav-item">
-              <a class="main-nav-link link-current" href="./portfolio.html"
-                >Портфоліо</a
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="./index.html"
+                >Студія</a
               >
             </li>
-            <li class="nav-item">
-              <a class="main-nav-link" href="">Контакти</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link link-current" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="list flex auth-nav">
-          <li class="auth-nav-item">
-            <a class="auth-nav-link" href="mailto:info@devstudio.com"
-              ><svg class="auth-nav-svg" width="16" height="12">
+          <li class="auth-nav__item">
+            <a class="auth-nav__link" href="mailto:info@devstudio.com"
+              ><svg class="auth-nav__icon" width="16" height="12">
                 <use
                   href="./images/Sprite-optimized.svg#icon-envelope"
                 ></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="auth-nav-item">
-            <a class="auth-nav-link" href="tel:+380961111111"
-              ><svg class="auth-nav-svg" width="10" height="16">
+          <li class="auth-nav__item">
+            <a class="auth-nav__link" href="tel:+380961111111"
+              ><svg class="auth-nav__icon" width="10" height="16">
                 <use
                   href="./images/Sprite-optimized.svg#icon-smartphone"
                 ></use></svg
@@ -69,36 +69,36 @@
       <section class="portfolio">
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="list portfolio-list">
-            <li class="portfolio-button-item">
-              <button class="portfolio-button current" type="button">
+          <ul class="list portfolio__list">
+            <li class="portfolio__button-item">
+              <button class="portfolio__button current" type="button">
                 Усі
               </button>
             </li>
-            <li class="portfolio-button-item">
-              <button class="portfolio-button" type="button">Веб-сайти</button>
+            <li class="portfolio__button-item">
+              <button class="portfolio__button" type="button">Веб-сайти</button>
             </li>
-            <li class="portfolio-button-item">
-              <button class="portfolio-button" type="button">Додатки</button>
+            <li class="portfolio__button-item">
+              <button class="portfolio__button" type="button">Додатки</button>
             </li>
-            <li class="portfolio-button-item">
-              <button class="portfolio-button" type="button">Дизайн</button>
+            <li class="portfolio__button-item">
+              <button class="portfolio__button" type="button">Дизайн</button>
             </li>
-            <li class="portfolio-button-item">
-              <button class="portfolio-button" type="button">Маркетинг</button>
+            <li class="portfolio__button-item">
+              <button class="portfolio__button" type="button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="list galary-list">
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+          <ul class="list galary__list">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic1.jpg"
                     alt="Ноутбук з відкритим веб сайтом"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -106,22 +106,22 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">Технокряк</h2>
-                  <p class="text-galary-list">Веб-сайт</p>
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">Технокряк</h2>
+                  <p class="galary__card-text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic2.jpg"
                     alt="Два баскетболісти грають"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -129,24 +129,24 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="text-galary-list">Дизайн</p>
+                  <p class="galary__card-text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic3.jpg"
                     alt="Риба"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -154,22 +154,22 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">Ресторан Seafood</h2>
-                  <p class="text-galary-list">Додаток</p>
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">Ресторан Seafood</h2>
+                  <p class="galary__card-text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic4.jpg"
                     alt="Чорні навушники"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -177,22 +177,22 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">Проєкт Prime</h2>
-                  <p class="text-galary-list">Маркетинг</p>
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">Проєкт Prime</h2>
+                  <p class="galary__card-text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic5.jpg"
                     alt="Дві коробки біла і коричнева"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -200,22 +200,22 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">Проєкт Boxes</h2>
-                  <p class="text-galary-list">Додаток</p>
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">Проєкт Boxes</h2>
+                  <p class="galary__card-text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic6.jpg"
                     alt="Аймак з веб сайтом"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -223,24 +223,24 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">
                     Inspiration has no Borders
                   </h2>
-                  <p class="text-galary-list">Веб-сайт</p>
+                  <p class="galary__card-text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic7.jpg"
                     alt="Книжка"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -248,22 +248,22 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">Видання Limited Edition</h2>
-                  <p class="text-galary-list">Дизайн</p>
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">Видання Limited Edition</h2>
+                  <p class="galary__card-text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic8.jpg"
                     alt="Білий ярличок"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -271,22 +271,22 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">Проєкт LAB</h2>
-                  <p class="text-galary-list">Маркетинг</p>
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">Проєкт LAB</h2>
+                  <p class="galary__card-text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="galary-list-item">
-              <a href="#" class="galary-list-link">
-                <div class="overlay-galary-picture">
+            <li class="galary__item">
+              <a href="#" class="galary__link">
+                <div class="galary__overlay-picture">
                   <img
                     src="./images/portfolio-pic9.jpg"
                     alt="Рука пише на клавіатурі ноутбука"
                     width="370"
                   />
-                  <div class="overlay-galary-text">
-                    <p class="text">
+                  <div class="galary__overlay-text">
+                    <p class="galary__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -294,9 +294,9 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-card-border">
-                  <h2 class="portfolio-card-title">Growing Business</h2>
-                  <p class="text-galary-list">Додаток</p>
+                <div class="galary__card-border">
+                  <h2 class="galary__card-title">Growing Business</h2>
+                  <p class="galary__card-text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -306,15 +306,15 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <div class="footer-address">
-          <a class="logo-footer" href="./index.html">
-            Web<span class="logo-accent-footer">Studio</span></a
+        <div class="footer__address">
+          <a class="footer__logo" href="./index.html">
+            Web<span class="footer__logo-accent">Studio</span></a
           >
           <address>
-            <ul class="list footer-contacts">
+            <ul class="list footer__contacts">
               <li>
                 <a
-                  class="nav-link-footer"
+                  class="footer__nav-link"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
@@ -322,46 +322,46 @@
                 >
               </li>
               <li>
-                <a class="nav-footer" href="info@devstudio.com"
+                <a class="footer__nav" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a class="nav-footer" href="+380961111111">+38 096 111 11 11</a>
+                <a class="footer__nav" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div>
-          <h3 class="footer-link-title">приєднуйтесь</h3>
-          <ul class="net-footer-list list">
-            <li class="net-footer-list-item">
-              <a href="" class="net-footer-link">
-                <svg class="net-footer-svg" width="20" height="20">
+          <h3 class="footer__link-title">приєднуйтесь</h3>
+          <ul class="footer__net-list list">
+            <li class="footer__net-item">
+              <a href="" class="footer__net-link">
+                <svg class="footer__net-icon" width="20" height="20">
                   <use
                     href="./images/Sprite-optimized.svg#icon-instagram"
                   ></use></svg
               ></a>
             </li>
-            <li class="net-footer-list-item">
-              <a href="" class="net-footer-link"
-                ><svg class="net-footer-svg" width="20" height="20">
+            <li class="footer__net-item">
+              <a href="" class="footer__net-link"
+                ><svg class="footer__net-icon" width="20" height="20">
                   <use
                     href="./images/Sprite-optimized.svg#icon-twitter"
                   ></use></svg
               ></a>
             </li>
-            <li class="net-footer-list-item">
-              <a href="" class="net-footer-link"
-                ><svg class="net-footer-svg" width="20" height="20">
+            <li class="footer__net-item">
+              <a href="" class="footer__net-link"
+                ><svg class="footer__net-icon" width="20" height="20">
                   <use
                     href="./images/Sprite-optimized.svg#icon-facebook"
                   ></use></svg
               ></a>
             </li>
-            <li class="net-footer-list-item">
-              <a href="" class="net-footer-link"
-                ><svg class="net-footer-svg" width="20" height="20">
+            <li class="footer__net-item">
+              <a href="" class="footer__net-link"
+                ><svg class="footer__net-icon" width="20" height="20">
                   <use
                     href="./images/Sprite-optimized.svg#icon-linkedin"
                   ></use></svg
@@ -371,24 +371,25 @@
         </div>
         <div>
           <form>
-            <h3 class="footer-link-title">Підпишіться на розсилку</h3>
-            <div class="footer-form">
+            <h3 class="footer__link-title">Підпишіться на розсилку</h3>
+            <div class="footer__form">
               <label for="mail"
                 ><input
                   type="email"
                   id="mail"
                   name="mail"
-                  class="input-footer"
+                  class="footer__input"
                   placeholder="E-mail"
               /></label>
-              <button type="submit" class="footer-form-button">
-                Підписатися <svg class="footer-button-svg" width="24" height="24">
+              <button type="submit" class="footer__form-button">
+                Підписатися
+                <svg class="footer__button-icon" width="24" height="24">
                   <use
                     href="./images/Sprite-optimized.svg#icon-footer-button-svg"
                   ></use>
                 </svg>
               </button>
-              </div>
+            </div>
           </form>
         </div>
       </div>
