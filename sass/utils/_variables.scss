@@ -1,0 +1,18 @@
+$colors: (
+  'primary-text': #757575,
+  'accent': #2196f3,
+  'primary-title': #212121,
+  'primary-white': #fff,
+  );
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
+
+$cubic-bezier: (
+  'cub': cubic-bezier(0.4, 0, 0.2, 1),
+    );
+
+@function getAnimation($key) {
+  @return map-get($cubic-bezier, $key);
+}

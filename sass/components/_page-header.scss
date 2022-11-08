@@ -1,0 +1,26 @@
+.header{
+        border-bottom: 1px solid #ECECEC;
+
+    &-nav{
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        }
+
+    &__logo{
+        margin-right: 93px;
+        color: getColor(accent);
+        font-size: 26px;
+        line-height: 1.19;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+    }
+
+    &__logo-accent{
+        color: #000;
+    }
+
+    .flex &__logo{
+        padding: 24px 0 25px 0;
+    }
+}
