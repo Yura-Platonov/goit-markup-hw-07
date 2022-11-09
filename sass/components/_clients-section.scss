@@ -1,0 +1,50 @@
+.clients-section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+
+    &__title {
+        margin-bottom: 50px;
+        
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        color: getColor(primary-title);
+    }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item {
+        width: calc((1170% - 150px)/6);
+        }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 92px;
+    
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        
+        transition: border 250ms getAnimation(cub);
+        }
+
+    &__link:hover, &__link:focus{
+        border: 1px solid getColor(accent);
+        border-radius: 4px; 
+    }
+
+    &__link:hover &__icon, &__link:focus &__icon{
+        fill: getColor(accent);
+    }
+
+    &__icon{
+        fill: #AFB1B8;
+        transition: fill 250ms getAnimation(cub);
+    }
+
+}

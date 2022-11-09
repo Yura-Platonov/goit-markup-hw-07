@@ -1,0 +1,106 @@
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+
+.footer {
+    background-color: #2f303a;
+    padding: 60px 0;
+
+    &__nav {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);
+        
+        transition: color 250ms getAnimation(cub);
+        }
+
+    &__nav-link{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        
+        color:getColor(primary-white);
+        }
+
+    &__nav:hover, &__nav:focus {
+        color: getColor(accent);
+    }
+
+    &__logo {
+        display: block;
+        margin-bottom: 20px;
+    
+        color: getColor(accent);
+        font-size: 26px;
+        line-height: 1.19;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        }
+    
+    &__logo-accent{
+        color: getColor(primary-white);
+    }
+
+    &__address{
+        display: flex;
+        flex-direction: column;
+            
+    }
+
+    &__link-title{
+        padding-bottom: 20px;
+        
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        
+        color: getColor(primary-white);
+        }
+
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        }
+    
+    &__net-list{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        }
+
+    &__net-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 44px;
+        width: 44px;
+
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+ 
+        transition: background-color 250ms getAnimation(cub);
+        }
+
+    &__net-link:hover, &__net-link:focus{
+        background-color: getColor(accent);
+        border-radius: 50%;
+    }
+
+    &__net-icon{
+        fill: getColor(primary-white)
+    }
+}
+
+
+.footer-link{
+    padding-top: 12px;
+}
+
+address{font-style: normal;}

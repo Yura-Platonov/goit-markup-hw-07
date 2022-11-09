@@ -1,0 +1,60 @@
+.footer{
+    &__form{
+        display: flex;
+        gap: 12px;
+    }
+
+    &__input{
+        width: 358px;
+        height: 50px;
+        
+        padding: 15px 16px;
+                
+        background-color: transparent;
+        color: getColor(primary-white);
+        
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        }
+
+    &__form-button{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        padding: 10px 28px;
+        border: 0;
+        min-width: 200px;
+        
+        text-align: left;
+        color:getColor(primary-white);
+        background-color: getColor(accent);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer; 
+        
+        transition: background-color 250ms getAnimation(cub);
+        }
+
+    &__form-button:hover, &__form-button:focus {
+        background-color: #188CE8;
+        }
+
+    &__button-icon{
+        fill: getColor(primary-white);
+    }
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}

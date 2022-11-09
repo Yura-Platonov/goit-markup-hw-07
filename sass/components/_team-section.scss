@@ -1,0 +1,81 @@
+.team-section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        background-color: #f5f4fA;
+
+    &__title{
+        margin-bottom: 50px;
+    
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        color: getColor(primary-title)
+    }
+
+    &__list{
+        display: flex;
+        }
+
+    &__item{ 
+        background-color: getColor(primary-white);
+        width: 270px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        }    
+
+    &__item:not(:last-child){
+        margin-right: 30px;
+    }
+
+    &__subtitle{
+        margin-bottom: 10px;
+        margin-top: 30px;
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        color: getColor(primary-title);
+    }
+
+    &__text {
+        margin-bottom: 16px;
+        
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        }
+}
+
+.net-list{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 30px;
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        
+        transition: background-color 250ms getAnimation(cub);
+        }
+
+    &__link:hover, &__link:focus{
+        background-color: getColor(accent);
+        border-radius: 50%;
+    }
+
+    &__link:hover &__icon, &__link:focus &__icon{
+        fill: getColor(primary-white);
+        }
+
+    &__icon{
+        fill: #AFB1B8;
+        transition: fill 250ms getAnimation(cub);
+    }
+}
